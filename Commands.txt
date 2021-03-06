@@ -1,0 +1,3 @@
+Activate env: source bin/activate
+Migration (models.py): python manage.py makemigrations --> migrate
+Runserver: python manage.py runserver
