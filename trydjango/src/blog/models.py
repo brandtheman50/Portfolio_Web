@@ -1,5 +1,6 @@
 from django.db import models
 
 class Blog(models.Model):
-    post_subject = models.TextField()
-    summary = models.TextField()
+    NONE = 'None'
+    Post_Subject = models.CharField(max_length=50,blank=False) #maximum length
+    Summary = models.TextField(blank=False, null=False)
